@@ -20,7 +20,7 @@ function httpCall(url, method="GET") {
 
 function submitForm() {
     let movieTitle = document.getElementById('movie_title').value;
-    let apiKey = "f6129b66";
+    let apiKey = "API-KEY-HERE";
 
     httpCall(`http://www.omdbapi.com/?apikey=${apiKey}&s=${movieTitle}`)
     .then((rawResults) => {
