@@ -48,7 +48,7 @@ function submitForm() {
 }
 
 function getDetails(id) {
-    let url = `http://www.omdbapi.com/?apikey=f6129b66&i=${id}`;
+    let url = `http://www.omdbapi.com/?apikey=APIKEYHERE&i=${id}`;
 
     httpCall(url)
     .then((results) => {
